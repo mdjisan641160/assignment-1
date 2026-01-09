@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #FFFFFF;
+    padding: 16 auto;
+
+}
+nav{
+    width: 71%;
+    max-width: 1600px;
+     /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 139px;
+    height: 60px;
+    margin-left: 120px;
+    
+}
+nav .menu{
+    display: flex;
+    font-size: 16px;
+    gap: 32px;
+    color:#000000;
+    list-style-type: none;
+    line-height: 152%;
+    font-weight: medium;
+    align-items: center;
+}
+nav .btn{
+    color: white;
+    background-color: #469165;
+     list-style-type: none;
+     margin-right: 120px;
+     padding: 12.5px 16px;
+     border-radius: 4px;
+}
+nav a{
+   
+     text-decoration: none;
+}
